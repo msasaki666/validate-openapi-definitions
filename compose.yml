@@ -1,0 +1,8 @@
+services:
+  app:
+    image: validate-openapi-definitions
+    build: .
+    volumes:
+      - .:/validate-openapi-definitions:cached
+    command:
+      tail -f /dev/null

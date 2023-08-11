@@ -1,0 +1,29 @@
+{
+  "name": "validate-openapi-definitions",
+  "dockerComposeFile": [
+    "../compose.yml"
+  ],
+  "service": "app",
+  "workspaceFolder": "/validate-openapi-definitions",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.formatOnSave": true,
+        "dotfiles.repository": "msasaki666/dotfiles",
+        "dotfiles.targetPath": "~/dotfiles",
+        "dotfiles.installCommand": "~/dotfiles/install.sh"
+      },
+      "extensions": [
+        "editorconfig.editorconfig",
+        "eamodio.gitlens",
+        "mhutchie.git-graph",
+        "donjayamanne.githistory",
+        "mosapride.zenkaku",
+        "redhat.vscode-yaml",
+        "Orta.vscode-jest",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+}

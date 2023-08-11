@@ -1,0 +1,20 @@
+{
+  "name": "validate-openapi-definitions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Motoaki Sasaki",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/exec": "^1.1.1",
+    "@redocly/cli": "^1.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
+}

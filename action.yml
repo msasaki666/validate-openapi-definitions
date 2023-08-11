@@ -1,0 +1,9 @@
+name: "Validate OpenAPI Definitions"
+description: "Greet someone and record the time"
+inputs:
+  args:
+    description: "lint command arguments"
+    required: true
+runs:
+  using: "node16"
+  main: "index.js"
